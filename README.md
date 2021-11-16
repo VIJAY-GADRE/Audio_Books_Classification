@@ -5,17 +5,17 @@
 
 <p>The main idea is that if a customer has a low probability of coming back then, there is no reason to spend any money on advertising to him/her. If we can focus our efforts SOLELY on customers that are likely to convert again, we can make great savings. Moreover, this model can identify the most important metrics for a customer to come back again. Identifying new customers creates value and growth opportunities.</p>
 
-<p>We have a .csv summarizing the data. There are several input variables: 
- - Customer ID, ), 
- - Book length overall (sum of the minute length of all purchases), 
- - Book length avg (average length in minutes of all purchases), 
- - Price paid_overall (sum of all purchases) ,
- - Price Paid avg (average of all purchases), 
- - Review (a Boolean variable whether the customer left a review), 
- - Review out of 10 (if the customer left a review, his/her review out of 10, 
- - Total minutes listened, Completion (from 0 to 1), 
- - Support requests (number of support requests; everything from forgotten password to assistance for using the App), and 
- - Last visited minus purchase date (in days).</p>
+We have a .csv summarizing the data. There are several input variables: 
+ - Customer ID 
+ - Book length overall (sum of the minute length of all purchases)
+ - Book length avg (average length in minutes of all purchases)
+ - Price paid_overall (sum of all purchases)
+ - Price Paid avg (average of all purchases)
+ - Review (a Boolean variable whether the customer left a review)
+ - Review out of 10 (if the customer left a review, his/her review out of 10
+ - Total minutes listened, Completion (from 0 to 1)
+ - Support requests (number of support requests; everything from forgotten password to assistance for using the App)
+ - Last visited minus purchase date (in days)
 
 These are the inputs (excluding customer ID, as it is completely arbitrary. It's more like a name, than a number).
 
