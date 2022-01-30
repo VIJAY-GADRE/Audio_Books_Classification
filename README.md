@@ -43,7 +43,7 @@ This is a classification problem with two classes: won't buy and will buy, repre
 - v. Split the dataset into training, validation, and testing
 - vi. Save the dataset in .npz file
 
-### 3) Model Oulining (Feed-Forward NN)
+### 3) Model Outlining (Feed-Forward NN)
 - i. Load the .npz files and extract the inputs and targets 
 - ii. Declare the size for input, output and hidden layers
 - iii.. Create a Sequential Model with 3 hidden layers
